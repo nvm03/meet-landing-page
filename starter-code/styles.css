@@ -1,0 +1,190 @@
+:root{
+    --cyan600: hsl(192, 37%, 48%);
+    --cyan300: hsl(192, 90%, 77%);
+
+    --purple600: hsl(268, 34%, 53%);
+    --purple300: hsl(268, 100%, 86%);
+
+    --slate900: hsl(240, 21%, 20%);
+    --slate600: hsl(240, 10%, 57%);
+    --slate300: hsl(240, 18%, 85%);
+
+    --white: hwb(0 98% 2%);
+
+    --txt-1-size: 4rem;
+    --txt-1-lineheight: 1.1;
+    --txt-1-size-mob: 2.5rem;
+    --txt-1-lineheight-mob: 1.1;
+
+    --txt-2-size: 2.5rem;
+    --txt-2-lineheight: 1.1;
+    --txt-2-size-mob: 2rem;
+    --txt-2-lineheight-mob: 1.1;
+
+    --txt-3-size: 1rem;
+    --txt-3-lineheight: 1.1;
+    --txt-3-letterspacing: 0.25rem;
+    --txt-3-size-mob: 0.75rem;
+    --txt-3-lineheight-mob: 1.1;
+
+    --txt-4-size: 1.125rem;
+    --txt-4-lineheight: 1.1;
+    --txt-4-weight: 500;
+
+    --txt-5-size: 1rem;
+    --txt-5-lineheight: 1.5;
+}
+h1{margin: 0; color: var(--slate900); font-size: var(--txt-1-size-mob); line-height: var(--txt-1-lineheight-mob); font-weight: 900;}
+p{color: var(--slate600); font-weight: 500; font-size: var(--txt-5-size); line-height: var(--txt-5-lineheight); margin: 1.5rem 0;}
+body{
+    background-color: var(--white);
+    margin: 0;
+    font-family: "Red Hat Display", sans-serif;
+}
+.logo{
+  display: flex;
+  margin-top: 3rem;
+  justify-content: center;
+}
+.hero-cluster{
+    margin-top: 4rem;
+    display: flex;
+    height: 10rem;
+    overflow: hidden;
+    justify-content: center;
+    gap: 1.063rem;
+}
+
+.container{
+    margin-top: 3rem;
+}
+.wrapper{
+    margin: 0 2.188rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn{
+    padding: 1.375rem 2.563rem;
+    text-decoration: none;
+    border-radius: 10rem;
+    font-weight: 900;
+    font-size: var(--txt-5-size);
+    color: var(--white);
+}
+.download{
+    max-width: 12.063rem;
+    background-color: var(--cyan600);
+}
+.download span{
+    color: var(--cyan300);
+}
+.whatisit{
+    margin-top: 1rem;
+    max-width: 10.063rem;
+    background-color: var(--purple600);
+}
+
+.modern-use{
+    margin-top: 64px;
+}
+.page1{
+    width: 54px;
+    height: 54px;
+    color: var(--slate600);
+    background-color: var(--white);
+    font-weight: 900;
+    font-size: var(--txt-5-size);
+    border: 1px solid var(--slate300);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.vertical-line {
+  border-left: 1px solid var(--slate300);
+  height: 5rem;
+}
+.people-img img{
+    height: 9rem;
+    width: 9.219rem;
+    border-radius: 0.65rem;
+}
+.people-img{
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;   
+}
+
+.text{
+    margin-top: 4rem;
+}
+h4{
+    margin: 0;
+    color: var(--cyan600);
+    font-weight: 900;
+    font-size: var(--txt-3-size-mob);
+    letter-spacing: var(--txt-3-letterspacing);
+    text-transform: uppercase;
+}
+h2{
+    margin: 1rem 0 2rem 0;
+    color: var(--slate900);
+    font-size: var(--txt-2-size-mob);
+    line-height: var(--txt-2-lineheight-mob);
+    font-weight: 900;
+}
+.text p{
+    margin: 0;
+}
+
+.more-together{
+    background-image: linear-gradient(rgb(from var(--cyan600) r g b / 0.9), 
+    rgb(from var(--cyan600) r g b / 0.9)
+    ),
+    url("assets/mobile/image-footer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info h2{
+    margin: 0;
+    color: var(--white);
+    font-weight: 900;
+    font-size: var(--txt-2-size-mob);
+    line-height: var(--txt-4-lineheight);   
+}
+.info p{
+    color: var(--white);
+    font-weight: var(--txt-4-weight);
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-top: 1.5rem 0;
+}
+.next-page{
+    position: relative;
+    margin-top: 10.938rem;
+}
+.line{
+    position: absolute;
+    display: grid; place-items: center;
+    align-self: center;
+    justify-self: center;
+    bottom: -25px;
+}
+.info{
+    min-height: 23.375rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.download-purple{
+    max-width: 12.063rem;
+    background-color: var(--purple600);
+}
+.info span{
+    color: var(--purple300);
+}
