@@ -197,7 +197,7 @@ body{
     font-weight: var(--txt-4-weight);
     font-size: 1rem;
     line-height: 1.5;
-    margin-top: 1.5rem 0;
+    margin-top: 1.5rem;
 }
 
 @media (min-width: 24rem){
